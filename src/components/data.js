@@ -1,60 +1,83 @@
-import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
-} from "@heroicons/react/24/solid";
-
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
-
-const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
-  bullets: [
-    {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
-    },
-  ],
+// Ejercicio 1
+const exerciseOne = {
+  title: "Ejercicio Orofaríngeo 1 - Lengua",
+  desc: "Empujar la punta de la lengua sobre el techo de la boca, y deslizar la punta de la lengua para atrás (20 veces)",
+  videoId: "69gwp8vqVJk",
+  bullets: [],
 };
 
-const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
-  ],
+// Ejercicio 2
+const exerciseTwo = {
+  title: "Ejercicio Orofaríngeo 2 - Lengua",
+  desc: "Forzar toda la lengua sobre el cielo de la boca, haciendo contacto con toda la lengua (5 segundos - 20 veces)",
+  videoId: "98_xbkRLkA0",
+  bullets: [],
 };
 
+// Ejercicio 3
+const exerciseThree = {
+  title: "Ejercicio Orofaríngeo 3 - Lengua",
+  desc: "Forzar lengua contra el suelo de la boca, haciendo contacto de la punta de la lengua con los dientes anteroinferiores (5 segundos - 20 veces)",
+  videoId: "IMczdTbN5cQ",
+  bullets: [],
+};
 
-export {benefitOne, benefitTwo};
+// Ejercicio 4
+const exerciseFour = {
+  title: "Ejercicio Orofaríngeo 4 - Paladar blando",
+  desc: "Decir “A” de forma intermitente (elevando la campanilla y paladar blando) (20 veces)",
+  videoId: "hjjcrZoeYA8",
+  bullets: [],
+};
+
+// Ejercicio 5
+const exerciseFive = {
+  title: "Ejercicio Orofaríngeo 5 - Sistema Estomatognático",
+  desc: "Inspirar fuertemente por la nariz y decir “A” de forma continua con la boca abierta lo más grande posible (elevando la campanilla y paladar blando) - hacer el sonido lo más largo posible",
+  videoId: "hjjcrZoeYA8",
+  bullets: [],
+};
+
+// Ejercicio 6
+const exerciseSix = {
+  title: "Ejercicio Orofaríngeo 6 - Musculatura Facial",
+  desc: "Colocar índices derecho e izquierdo dentro de la boca y tratar de forzar para afuera las mejillas al mismo tiempo de querer forzar el cierre. (5 seg - 10 veces)",
+  videoId: "Pm04JRuJhjo",
+  bullets: [],
+};
+
+// Ejercicio 7
+const exerciseSeven = {
+  title: "Ejercicio Orofaríngeo 7 - Orbiculares",
+  desc: "Colocar un botón o un objeto similar con un hilo entre los labios y los dientes; y tratar de estirarlo con el dedo, haciendo fuerza para retenerlo. (1 minuto)",
+  videoId: "eKJMPxrfG5c",
+  bullets: [],
+};
+
+// Ejercicio 8
+const exerciseEight = {
+  title: "Ejercicio Orofaríngeo 8 - Buccinadores",
+  desc: "Inflar mejillas de cada lado (10 veces por lado)",
+  videoId: "FTuwejC_8do",
+  bullets: [],
+};
+
+// Ejercicio 9
+const exerciseNine = {
+  title: "Ejercicio Orofaríngeo 9 - Masticación y Deglución",
+  desc: "Tras triturar un poco la comida con los dientes, hacer fuerza con la lengua contra el paladar para terminar de triturar la comida (tratar de hacerlo con los dientes cerrados) - (por ej: pan) - Alternativa: simular que uno está masticando con la lengua durante 1 minuto.",
+  videoId: "riMZnNn5y2g",
+  bullets: [],
+};
+
+export {
+  exerciseOne,
+  exerciseTwo,
+  exerciseThree,
+  exerciseFour,
+  exerciseFive,
+  exerciseSix,
+  exerciseSeven,
+  exerciseEight,
+  exerciseNine,
+};
