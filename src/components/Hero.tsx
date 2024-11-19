@@ -46,14 +46,39 @@ export const Hero = () => {
             <div className="w-full mt-5">
               <Benefit title={"Recomendado"} icon={<FaceSmileIcon />}>
                 Para asegurar una constancia completa, utilizar el calendario
-                facilitado aquí:
+                facilitado{" "}
+                <a
+                  href="https://drive.google.com/file/d/1uiLA0Bh86Pfk0peEQqrBGP6L6mpggqD_/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-primary dark:text-secondary"
+                >
+                  aquí
+                </a>
               </Benefit>
               <Benefit
                 title={"Formulario online"}
                 icon={<DevicePhoneMobileIcon />}
               >
-                Completar la primera vez: https://forms.gle/fh3ffhVEq6qk4Fxz6
-                Completar en el seguimiento: https://forms.gle/WcT5Twe5ThZpfPnf7
+                Completar en el seguimiento:{" "}
+                <a
+                  href="https://forms.gle/WcT5Twe5ThZpfPnf7"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-primary dark:text-secondary"
+                >
+                  Formulario 1
+                </a>
+                <br />
+                Completar la primera vez:{" "}
+                <a
+                  href="https://forms.gle/fh3ffhVEq6qk4Fxz6"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-primary dark:text-secondary"
+                >
+                  Formulario 2
+                </a>
               </Benefit>
               <Benefit title={"Recordatorios"} icon={<SunIcon />}>
                 Hacer recordatorios diarios en el teléfono celular.
